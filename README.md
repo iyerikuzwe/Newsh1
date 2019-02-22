@@ -76,6 +76,6 @@ To use this application, visit the live application link at:  https://regine.her
     Flask
     Flask-Bootstrap
     python3.6 
-    html.
+    html
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iyerikuzwe/Newsh1/blob/master/LICENSE)
