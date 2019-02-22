@@ -33,7 +33,7 @@ To use this application, visit the live application link at: https://regine.hero
 ### Cloning
 *In your terminal:
         
-*$ git clone https://github.com/iyerikuzwe/Newsh.
+*$ git clone https://github.com/iyerikuzwe/Newsh1
 
 *$ cd Newsh
 
@@ -65,8 +65,7 @@ To use this application, visit the live application link at: https://regine.hero
         
 * To run the application, in your terminal:
 
-        $ chmod +x start.sh
-        $ ./start.sh
+        $ python3.6 run.py
         
 ## Testing the Application
 * To run the tests for the class files:
@@ -77,4 +76,4 @@ To use this application, visit the live application link at: https://regine.hero
 
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iyerikuzwe/Newsh/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iyerikuzwe/Newsh1/blob/master/LICENSE)
