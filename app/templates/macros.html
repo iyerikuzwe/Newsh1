@@ -1,9 +1,9 @@
 {% macro displayNewsList(news_list) %} {% for news in news_list %}
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-  <div class="panel" style="border-bottom: 1px solid darkblue;">
+  <div class="panel" style="border-bottom: 1px solid darkolivegreen;">
     <div
       class="panel-heading"
-      style="background-color:darkblue; color: darkkhaki; font-size: 18px;"
+      style="background-color:wheat; color: darkolivegreen; font-size: 18px;"
     >
       {{ news.name }}
     </div>
@@ -12,7 +12,7 @@
       <a
         href="/news/{{ news.id }}"
         class="btn"
-        style="color: darkgrey; background-color: rgb(228, 195, 195);"
+        style="color: darkcyan; background-color: skyblue;"
         >View More</a
       >
     </div>

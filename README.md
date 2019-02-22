@@ -4,7 +4,7 @@
 # News-Highlights
 This is a Python-Flask application for displaying News Highlights from various News sources using a [News API](https://newsapi.org/).
 ### Prerequisites
-To use this application, visit the live application link at: https://regine.herokuapp.com/
+To use this application, visit the live application link at:  https://regine.herokuapp.com/
 
 ## User Stories
         These are the behaviours/features that the application implements for use by a user.
