@@ -1,0 +1,46 @@
+{% import 'macros.html' as macro%} {% extends 'base.html'%} {% block content %}
+<div class="jumbotron" style="background-color:bisque;">
+  <h1 style="text-align:center;" ,style="font-family:Times New Roman;">
+    NEWS HIGHLIGHT
+  </h1>
+  <div class="container">
+    <h2>Categories:</h2>
+    <p>This Page contains 3 Categories:</p>
+    <ul style="font-size:20px;">
+      <li>General News</li>
+      <li>Business News</li>
+      <li>Sports News</li>
+    </ul>
+  </div>
+</div>
+<!-- Styles block -->
+
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}" />
+{% endblock %}
+
+<!-- Content block -->
+
+<!-- Popular News -->
+<div id="index">
+  <h3>General News</h3>
+  <ul>
+    {{
+      macro.displayNewsList(general)
+    }}
+  </ul>
+  <h3>Business News</h3>
+  <ul>
+    {{
+      macro.displayNewsList(business)
+    }}
+  </ul>
+  <h3>Sports</h3>
+  <ul>
+    {{
+      macro.displayNewsList(sports)
+    }}
+  </ul>
+</div>
+{% endblock%}
