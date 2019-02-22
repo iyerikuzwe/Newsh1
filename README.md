@@ -78,5 +78,8 @@
     Flask-Bootstrap
     python3.6 
     html
+## Contact & Support_lines
+        E-mail:iyerikuzweregine19@gmail.com
+        phone_number:0789140216
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iyerikuzwe/Newsh1/blob/master/LICENSE)
