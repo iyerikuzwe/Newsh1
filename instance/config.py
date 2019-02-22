@@ -1,2 +1,2 @@
 NEWS_API_KEY = '4aec50b5c9094eb489bf48343298b29c'
-SECRET_KEY = 'regine123'
+SECRET_KEY = 'regine123'.
